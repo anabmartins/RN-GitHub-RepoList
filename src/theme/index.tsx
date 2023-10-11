@@ -19,5 +19,15 @@ export const stylesGlobal = StyleSheet.create({
         width: '50%',
         color: "red"
 
+    },
+    input:{
+        borderWidth: 0,
+        backgroundColor: "#e6e6e6",
+        color: "#333333",
+        width: '50%',
+        padding: 7,
+        marginTop: 10,
+        borderRadius: 5,
+
     }
 })
