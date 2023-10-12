@@ -14,6 +14,11 @@ export function StackRoutes(){
             component={Home}
             options={{headerShown: false}}
             />
+            <Screen
+            name='about'
+            component={About}
+            options={{headerShown: false}}
+            />
         </Navigator>
     )
 }
