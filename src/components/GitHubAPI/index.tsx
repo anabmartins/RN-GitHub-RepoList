@@ -46,7 +46,7 @@ export function GitHub() {
                     <Text style={stylesGlobal.response}>Nickname: {userData.login}</Text>
                     <Text style={stylesGlobal.response}>Repositórios: {userData.public_repos}</Text>
                     <Text style={stylesGlobal.response}>Seguidores: {userData.followers}</Text>
-                    <Text style={stylesGlobal.response}>Repositórios: {userData.following}</Text>
+                    <Text style={stylesGlobal.response}>Seguindo: {userData.following}</Text>
                 </>
             )}
             {error && <Text>{error}</Text>}
